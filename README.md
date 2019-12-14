@@ -63,7 +63,8 @@ docker inspect --format='{{.Os}}' hello-world
 ```
 
 
-### Switch to docker linux
+### Switch to Docker linux
+Docker Desktop->Switch to linux docker
 
 ```
 docker run hello-world
@@ -77,35 +78,46 @@ Os container : linux.
 ```
 docker inspect --format='{{.Os}}' hello-world
 ```
-Comment sur un windows => VM
+Comment un container tourne sur host windows => VM linux sur windows
+
 
 ## Run command dans le container
 Alpine : version légère de linux
 ```
 docker container run alpine ls -l
 ```
+Cmd bash dans le container linux
 ```
  docker container run -it alpine /bin/sh
 ```
 
-try
+Essayer les commandes suivantes 
 ```
 uname -a (info marchine)
 ls
 ```
 
-## Isolation container 
+## Isolation container  
+Il est important de faire la difference entre une image et un container. 
+
+L'image permet de runner un container.
+
+Deux run de container sont bien isolés et n'ont pas d'interaction
+
 ```
 docker container run -it alpine /bin/ash
 ```
+
+Ecrire dans un le container 1
 ```
  echo "hello world" > hello.txt
-
  ls
 ```
+lister fichier dans le container 2
 ```
 docker container run alpine ls
 ```
+
 ## webserver linux nginx
 
 ```
