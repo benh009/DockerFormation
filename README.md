@@ -79,8 +79,8 @@ docker inspect --format='{{.Os}}' hello-world
 ```
 Comment sur un windows => VM
 
-### run command dans le container
-alpine : version légère de linux
+## Run command dans le container
+Alpine : version légère de linux
 ```
 docker container run alpine ls -l
 ```
@@ -94,7 +94,7 @@ uname -a (info marchine)
 ls
 ```
 
-### isolation container 
+## Isolation container 
 ```
 docker container run -it alpine /bin/ash
 ```
@@ -106,7 +106,7 @@ docker container run -it alpine /bin/ash
 ```
 docker container run alpine ls
 ```
-### webserver linux nginx
+## webserver linux nginx
 
 ```
 docker run --detach --publish 80:80 --name webserver nginx
