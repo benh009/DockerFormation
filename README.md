@@ -2,6 +2,13 @@
 ## HelloWorld
 ### Installation 
 
+[Download here](https://hub.docker.com/?overlay=onboarding)
+Docker Id
+login chwapiexo1 Pwd chwapiexo1
+
+Docker Desktop requires Windows 10 Pro or Enterprise version
+
+Dans le cmd de windows 
 ```
 docker --version
 ```
@@ -52,6 +59,33 @@ docker inspect --format='{{.Os}}' hello-world
 ```
 Comment sur un windows => VM
 
+### run command dans le container
+alpine : version légère de linux
+```
+docker container run alpine ls -l
+```
+```
+ docker container run -it alpine /bin/sh
+```
+
+try
+```
+uname -a (info marchine)
+ls
+```
+
+### isolation container 
+```
+docker container run -it alpine /bin/ash
+```
+```
+ echo "hello world" > hello.txt
+
+ ls
+```
+```
+docker container run alpine ls
+```
 ### webserver linux nginx
 
 ```
@@ -84,9 +118,17 @@ Download : [Kitematic](https://kitematic.com/)
  docker run -it ubuntu bash
  ```
  
- ### docker file docker-compose
+ ### docker file docker-compose vs commit after update 
 
 linux avec python 
+
+### layer 
+
+
+docker image history <image ID>
+Using cache.
+
+docker image inspect --format "{{ json .RootFS.Layers }}" alpine
 
 ### exo 
 
