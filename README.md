@@ -1,8 +1,7 @@
-# DockerFormation
-## HelloWorld
-### Installation 
+# Docker Formation
+## Installation 
 
-#### Docker Desktop
+### Docker Desktop (Windows)
 Docker Desktop requires Windows 10 Pro or Enterprise version
 
 [Download here](https://hub.docker.com/?overlay=onboarding)
@@ -16,19 +15,19 @@ Dans le cmd de windows
 ```
 docker --version
 ```
-#### Docker Toolbox 
+### Docker Toolbox 
 
 Installation de VM VirtualBox car Hyper-v Manager n'est pas sur windows non pro/Entreprise
 
-#### Autre OS 
+### Autre OS 
 * [Ubuntu](https://hub.docker.com/editions/community/docker-ce-server-ubuntu)
 * [Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
-#### Cloud 
+### Cloud 
  * [Azure](https://hub.docker.com/editions/community/docker-ce-azure)
  * [Aws](https://hub.docker.com/editions/community/docker-ce-aws)
 
 
-### HelloWorld container
+## HelloWorld container
 
 ```
 docker run hello-world
