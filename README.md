@@ -56,7 +56,14 @@ Les container qui **tournent** sur le pc
 ```
 docker container ls --all
 ```
-
+Stop docker
+```
+docker stop my_container
+```
+stop et supprime un container
+```
+docker rm --force linux_tweet_app
+```
 Os container : windows
 ```
 docker inspect --format='{{.Os}}' hello-world
@@ -80,6 +87,9 @@ docker inspect --format='{{.Os}}' hello-world
 ```
 Comment un container tourne sur host windows => VM linux sur windows
 
+### Docker Desktop setting 
+* shared drive 
+* Advanced
 
 ## Run command dans le container
 Alpine : version légère de linux
@@ -176,11 +186,22 @@ https://training.play-with-docker.com/beginner-linux/ end exo
   docker login
   ```
   Use docker Id 
+  
  ```
- docker image push name 
+export DOCKERID=chwapiexo1
+echo $DOCKERID
+docker image build --tag $DOCKERID/linux_tweet_app:1.0 .
+docker image push $DOCKERID/linux_tweet_app:1.0
  ```
 
+* Docker Desktop->repo 
+
+
+
 [Pricing](https://hub.docker.com/pricing)
+
+git pull ???
+
 
 ### folder partager avec host
 
@@ -190,3 +211,5 @@ https://labs.play-with-docker.com/
 
 
 https://training.play-with-docker.com/#dev
+
+top exo https://training.play-with-docker.com/microservice-orchestration/
