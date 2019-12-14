@@ -140,6 +140,7 @@ docker run --detach --publish 80:80 --name webserver nginx
 image : nginx (linux)
 
 ## kitematic (UI for docker)
+partage de volume / folder https://docs.docker.com/kitematic/userguide/
 
 Download : [Kitematic](https://kitematic.com/)
 
