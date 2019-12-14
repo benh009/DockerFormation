@@ -87,3 +87,7 @@ Download : [Kitematic](https://kitematic.com/)
  ### docker file docker-compose
 
 linux avec python 
+
+### exo 
+
+https://labs.play-with-docker.com/
