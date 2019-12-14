@@ -4,14 +4,14 @@
 ### Docker Desktop (Windows)
 Docker Desktop requires Windows 10 Pro or Enterprise version
 
-[Download here](https://hub.docker.com/?overlay=onboarding)
+[Download here : hub.docker.com](https://hub.docker.com/?overlay=onboarding)
 
-Docker Id
+**Docker Id**
 
-login chwapiexo1 Pwd chwapiexo1
+**Login** chwapiexo1 **Password** chwapiexo1
 
 
-Dans le cmd de windows 
+Dans le cmd de windows tester si l'installation a fonctionnée
 ```
 docker --version
 ```
