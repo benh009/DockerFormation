@@ -18,14 +18,14 @@ docker --version
 ```
 #### Docker Toolbox 
 
-installation de VM VirtualBox car Hyper-v Manager n'est pas sur windows non pro/Entreprise
+Installation de VM VirtualBox car Hyper-v Manager n'est pas sur windows non pro/Entreprise
 
-#### autre OS 
-[ubuntu](https://hub.docker.com/editions/community/docker-ce-server-ubuntu)
-[Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
- #### Cloud 
- [azure](https://hub.docker.com/editions/community/docker-ce-azure)
- [aws](https://hub.docker.com/editions/community/docker-ce-aws)
+#### Autre OS 
+* [Ubuntu](https://hub.docker.com/editions/community/docker-ce-server-ubuntu)
+* [Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
+#### Cloud 
+ * [Azure](https://hub.docker.com/editions/community/docker-ce-azure)
+ * [Aws](https://hub.docker.com/editions/community/docker-ce-aws)
 
 
 ### HelloWorld container
