@@ -91,3 +91,6 @@ linux avec python
 ### exo 
 
 https://labs.play-with-docker.com/
+
+
+https://training.play-with-docker.com/#dev
