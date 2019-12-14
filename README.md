@@ -119,7 +119,7 @@ docker container run alpine ls
 ```
 
 ## webserver linux nginx
-
+https://training.play-with-docker.com/beginner-linux/
 ```
 docker run --detach --publish 80:80 --name webserver nginx
 ```
@@ -161,6 +161,12 @@ docker image history <image ID>
 Using cache.
 
 docker image inspect --format "{{ json .RootFS.Layers }}" alpine
+
+
+### Compose Swarm  
+permet d'ochestrer les container entre eux 
+compose sur une machine 
+swarn plus puissant 
 
 ### exo 
 
