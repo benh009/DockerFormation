@@ -168,6 +168,22 @@ permet d'ochestrer les container entre eux
 compose sur une machine 
 swarn plus puissant 
 
+
+### push image 
+https://training.play-with-docker.com/beginner-linux/ end exo
+
+ ```
+  docker login
+  ```
+  Use docker Id 
+ ```
+ docker image push name 
+ ```
+
+[Pricing](https://hub.docker.com/pricing)
+
+### folder partager avec host
+
 ### exo 
 
 https://labs.play-with-docker.com/
