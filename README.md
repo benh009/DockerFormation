@@ -179,6 +179,10 @@ permet d'ochestrer les container entre eux
 compose sur une machine 
 swarn plus puissant 
 
+https://training.play-with-docker.com/swarm-mode-intro/#
+
+
+visualisateur end of this https://training.play-with-docker.com/swarm-stack-intro/
 
 ### push image 
 https://training.play-with-docker.com/beginner-linux/ end exo
