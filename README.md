@@ -1,17 +1,17 @@
 # Docker Formation
 ## Introduction 
-* Les conteneurs ne sont pas nouveaux. Ils sont Disponnibles depuis longtemps sur Linux/Solaris/windows
-* Docker est un ensemble d'outils, d'api qui rendre les conteneurs plus facilement gérable
-* Arrivé au bon moment quand l'industrie cherchait un moyen de mieux gérer le cloud
-* Docker et plus qu'une trousse à outils .C'est un Ecosysteme foisonnant
-* Google gère plus de deux millards de conteneurs. Exemple : gmail, maps ,search 
-* Illusion d'être la seul à avoir accès au système 
-* Vm illusion d'être le seul à exploiter le hardware 
-* Un conteneur est très léger comparé à une vm 
-* Un conteneur est plus simple à gérer pour l'équipe infrastructure
+* Les conteneurs ne sont pas nouveaux. Ils sont disponnibles depuis longtemps sur Linux/Solaris/Windows.
+* Docker est un ensemble d'outils, d'API qui rendent les conteneurs plus facilement gérable.
+* Ils sont arrivés au bon moment quand l'industrie cherchait un moyen de mieux gérer le cloud.
+* Docker est plus qu'une trousse à outils. C'est un Ecosysteme foisonnant.
+* Google gère plus de deux millards de conteneurs. Exemple : gmail, maps ,search. 
+* Un conteneur a l'illusion d'être la seul à avoir accès au système. 
+* Une VM a l'illusion d'être le seul à exploiter le hardware.
+* Un conteneur est très léger comparé à une VM.
+* Un conteneur est plus simple à gérer pour l'équipe infrastructure.
 
 
-![alt text](https://github.com/benh009/DockerFormation/blob/master/vmvsdocker.jpg "Logo Title Text 1")
+![alt text](https://github.com/benh009/DockerFormation/blob/master/vmvsdocker.jpg "")
 
 
 
