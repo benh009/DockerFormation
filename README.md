@@ -34,14 +34,19 @@ Installation de VM VirtualBox car Hyper-v Manager n'est pas sur windows non Pro/
 ```
 docker run hello-world
 ```
-* pull image de [Docker hub](https://hub.docker.com/search?q=hello-world&type=image) 
-* run image
+Egale à
+```
+docker pull hello-world
+docker run hello-world
+```
+* Pull image de [Docker hub](https://hub.docker.com/search?q=hello-world&type=image) 
+* Run image
 
 ```
 docker run hello-world
 ```
-* ~~image déjà pullée~~
-* run image 
+* ~~Image déjà pullée~~
+* Run image 
 
 Les images sur mon pc 
 ```
