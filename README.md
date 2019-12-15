@@ -70,10 +70,16 @@ Le CONTAINER ID est spécifique à chaque instance de container et est donc diff
 
 
 ## HelloWorld container (Console App)
+
 [.net Core Samples](https://hub.docker.com/_/microsoft-dotnet-core-samples)
 
+Pull samples
 ```
 docker pull mcr.microsoft.com/dotnet/core/samples
+```
+Run samples 
+```
+docker run --rm mcr.microsoft.com/dotnet/core/samples
 ```
 
 Stop docker
