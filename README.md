@@ -122,9 +122,8 @@ Stop et supprime un container
 docker rm --force aspnetcore_sample
 ```
 
+## Docker settings
 ### Switch vers Docker Linux ou Windows
-
-
 
 ```
 docker run hello-world
@@ -159,7 +158,7 @@ Comment un container tourne sur host windows => VM linux sur windows
 
 
 
-## Run command dans le container
+## Run command dans le containeur
 Alpine : version légère de linux
 ```
 docker container run alpine ls -l
@@ -171,6 +170,8 @@ Cmd bash dans le container linux
 
 Essayer les commandes suivantes 
 ```
+ps
+cd
 uname -a (info marchine)
 ls
 ```
@@ -186,7 +187,7 @@ Deux run de container sont bien isolés et n'ont pas d'interaction
 docker container run -it alpine /bin/ash
 ```
 
-Ecrire dans un le container 1
+Ecrire dans le container 1
 ```
  echo "hello world" > hello.txt
  ls
@@ -195,19 +196,9 @@ lister fichier dans le container 2
 ```
 docker container run alpine ls
 ```
+le containeur 2 ne contient pas hello.txt
 
-## webserver linux nginx
-https://training.play-with-docker.com/beginner-linux/
-```
-docker run --detach --publish 80:80 --name webserver nginx
-```
-80:80 port forwarding 
-
---name webserver (label)
-
-image : nginx (linux)
-
-## kitematic (UI for docker)
+## Kitematic (UI for docker)
 partage de volume / folder https://docs.docker.com/kitematic/userguide/
 
 Download : [Kitematic](https://kitematic.com/)
@@ -218,16 +209,6 @@ Download : [Kitematic](https://kitematic.com/)
 * documentation links
 * start/stop containers
 
-## Kubernetes
-
-??? helloworld container
-```
- docker run -it mcr.microsoft.com/windows/servercore powershell
- ```
- 
- ```
- docker run -it ubuntu bash
- ```
  
  ### docker file docker-compose vs commit after update 
 
