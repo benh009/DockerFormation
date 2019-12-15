@@ -222,6 +222,29 @@ Guide : [lien](https://docs.docker.com/kitematic/userguide/)
  ### Docker file
 
  ### Docker 
+ 
+```
+docker run hello-world
+```
+* [Docker Hub](https://hub.docker.com/_/hello-world)
+* [Docker File Windows](https://github.com/docker-library/hello-world/blob/9c93e37114a7fe99b5fc0d776e0b8dff99cbbb75/amd64/hello-world/nanoserver-1809/Dockerfile)
+* [Docker File Linux](https://github.com/docker-library/hello-world/blob/b715c35271f1d18832480bde75fe17b93db26414/amd64/hello-world/Dockerfile)
+
+```
+FROM scratch
+COPY hello /
+CMD ["/hello"]
+```
+
+super minimal images 
+[scratch](https://hub.docker.com/_/scratch/)
+
+```
+docker images
+```
+size : 1.84kB
+
+
 
 .net core + code perso
 
