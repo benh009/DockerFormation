@@ -199,16 +199,17 @@ docker container run alpine ls
 le containeur 2 ne contient pas hello.txt
 
 ## Kitematic (UI for docker)
-partage de volume / folder https://docs.docker.com/kitematic/userguide/
+
 
 Download : [Kitematic](https://kitematic.com/)
 
-* all running containers 
-* create new containers
-* setting containers
-* documentation links
-* start/stop containers
+* All running containers 
+* Create new containers
+* Setting containers
+* Documentation links
+* Start/stop containers
 
+Guide : [lien](https://docs.docker.com/kitematic/userguide/)
  
  ### docker file docker-compose vs commit after update 
 
