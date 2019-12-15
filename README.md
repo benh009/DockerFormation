@@ -211,9 +211,21 @@ Download : [Kitematic](https://kitematic.com/)
 
 Guide : [lien](https://docs.docker.com/kitematic/userguide/)
  
- ### docker file docker-compose vs commit after update 
+ ## Mon containeur custom
+ 
+ ### Commit après changement  
+ 
+ retrouver l exo 
+ 
+ example update ib
+ 
+ ### Docker file docker-compose 
+
 
 linux avec python 
+
+### Docker-compose 
+
 
 ### layer 
 
