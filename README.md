@@ -355,8 +355,6 @@ Permet de lancer les différents containeurs avec leurs parametres
 Voir exo 
 
 ### Push image 
-https://training.play-with-docker.com/beginner-linux/ end exo
-
  ```
   docker login
   ```
