@@ -55,7 +55,7 @@ Egale à
 docker pull hello-world
 docker run hello-world
 ```
-* Pull image de [Docker hub](https://hub.docker.com/search?q=hello-world&type=image) 
+* Pull image hello-world de [Docker hub](https://hub.docker.com/_/hello-world) 
 * Run image
 
 ```
