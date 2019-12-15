@@ -219,12 +219,18 @@ Guide : [lien](https://docs.docker.com/kitematic/userguide/)
  
  example update ib
  
- ### Docker file docker-compose 
+ ### Docker file
 
+ ### Docker 
 
-linux avec python 
+.net core + code perso
 
 ### Docker-compose 
+
+db + .net core
+
+### push image 
+
 
 
 ### layer 
