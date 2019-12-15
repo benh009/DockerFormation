@@ -48,24 +48,26 @@ docker run hello-world
 * ~~Image déjà pullée~~
 * Run image 
 
-Les images sur mon pc 
+Liste les images sur mon pc 
 ```
 docker image ls
 ```
-Les container sur le pc
+Les container qui **tournent** sur le pc
 ```
 docker container ls
 ```
 
-Les container qui **tournent** sur le pc
+Liste tout les container sur le pc
 ```
 docker container ls --all
 ```
+
+
 Stop docker
 ```
 docker stop my_container
 ```
-stop et supprime un container
+Stop et supprime un container
 ```
 docker rm --force linux_tweet_app
 ```
