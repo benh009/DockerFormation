@@ -214,11 +214,55 @@ Guide : [lien](https://docs.docker.com/kitematic/userguide/)
  ## Mon containeur custom
  
  ### Commit après changement  
+https://training.play-with-docker.com/ops-s1-images/
  
- retrouver l exo 
- 
- example update ib
- 
+ ```
+ docker container run -ti ubuntu bash
+```
+exit ubuntu 
+```
+docker images
+```
+Size : 64MB
+ ```
+ docker container run -ti ubuntu bash
+```
+
+Ajout d'une lib dans mon ubuntu 
+
+[Figlet](http://www.figlet.org/)
+```
+apt-get update
+apt-get install -y figlet
+figlet "hello docker"
+```
+
+exit ubuntu
+
+Id containeur 
+```
+docker container ls -a
+```
+
+```
+docker container commit b6
+```
+Nouvelle image 
+```
+docker image ls
+```
+Ajout de tag 
+```
+docker image tag 268 ourfiglet
+```
+
+run cmd figlet 
+```
+docker container run ourfiglet figlet hello
+```
+
+
+
  ### Docker file
 
  ### Docker 
