@@ -310,8 +310,19 @@ Lancer python dans le bash
 ```
 python
 ```
+ 
+Layer 
+
+Image Id de figlet:v0.2
+```
+docker image history 58
+```
+
+Utilse la cache quand on build des nouvelles images  
+
   
- ### Docker 
+  
+ ### Docker file utilisé pour les containeurs officiel 
  
 ```
 docker run hello-world
@@ -335,9 +346,6 @@ docker images
 size : 1.84kB
 
 
-
-.net core + code perso
-
 ### Docker-compose 
 
 db + .net core
@@ -346,13 +354,6 @@ db + .net core
 
 
 
-### layer 
-
-
-docker image history <image ID>
-Using cache.
-
-docker image inspect --format "{{ json .RootFS.Layers }}" alpine
 
 
 ### Compose Swarm  
@@ -391,11 +392,11 @@ git pull ???
 
 ### folder partager avec host
 
-### exo 
+### exercice 
 
-https://labs.play-with-docker.com/
+Lab permet de ne pas devoir installer
 
+[lab](https://labs.play-with-docker.com/)
 
-https://training.play-with-docker.com/#dev
-
-top exo https://training.play-with-docker.com/microservice-orchestration/
+Exercice 
+[exo](https://training.play-with-docker.com/microservice-orchestration/)
