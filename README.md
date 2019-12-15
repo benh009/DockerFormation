@@ -101,12 +101,12 @@ docker run --rm mcr.microsoft.com/dotnet/core/samples
 
 Run web App .net Core
 ```
-docker run -it --rm -p 8000:80 --name aspnetcore_sample mcr.microsoft.com/dotnet/core/samples:aspnetapp
+docker run --detach --rm -p 8000:80 --name aspnetcore_sample mcr.microsoft.com/dotnet/core/samples:aspnetapp
 ```
 *--name donne un nom au container
 * 8000:80 Port mapping le 80000 de l'host docker =  port 80 du container
-
-
+* -itd interactive pseudo terminal
+* --detach detache le terminal 
 Liens de l'app 
 ```
 http://localhost:8000/ 
@@ -122,7 +122,13 @@ Stop et supprime un container
 docker rm --force aspnetcore_sample
 ```
 
-### Switch to Docker linux
+### Switch vers Docker Linux ou Windows
+
+
+
+```
+docker run hello-world
+```
 
 Os container : windows
 ```
@@ -130,7 +136,7 @@ docker inspect --format='{{.Os}}' hello-world
 ```
 
 
-Docker Desktop->Switch to linux docker
+Docker Desktop->Switch vers Linux docker/ windows
 
 ```
 docker run hello-world
@@ -148,7 +154,10 @@ Comment un container tourne sur host windows => VM linux sur windows
 
 ### Docker Desktop setting 
 * shared drive 
-* Advanced
+* Advanced seulement disponible pour la vm linux
+
+
+
 
 ## Run command dans le container
 Alpine : version légère de linux
