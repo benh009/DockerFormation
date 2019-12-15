@@ -20,7 +20,7 @@ docker --version
 
 [Download here : github.com/docker/toolbox/ ](https://github.com/docker/toolbox/releases)
 
-Installation de VM VirtualBox car Hyper-v Manager n'est pas sur windows non pro/Entreprise
+Installation de VM VirtualBox car Hyper-v Manager n'est pas sur windows non Pro/Entreprise
 
 ### Autre OS 
 * [Ubuntu](https://hub.docker.com/editions/community/docker-ce-server-ubuntu)
