@@ -372,22 +372,24 @@ https://training.play-with-docker.com/beginner-linux/ end exo
  ```
   docker login
   ```
-  Use docker Id 
+  * Use docker Id 
+  * Docker Desktop->repo 
   
  ```
-export DOCKERID=chwapiexo1
-echo $DOCKERID
-docker image build --tag $DOCKERID/linux_tweet_app:1.0 .
-docker image push $DOCKERID/linux_tweet_app:1.0
+docker image build --tag chwapiexo1/figlet:2.0 .
+docker image push chwapiexo1/figlet:2.0
+ ```
+ 
+
+[Pricing pour repository privé](https://hub.docker.com/pricing)
+
+
+
  ```
 
-* Docker Desktop->repo 
-
-
-
-[Pricing](https://hub.docker.com/pricing)
-
-git pull ???
+docker image pull chwapiexo1/figlet:2.0
+ ```
+ 
 
 
 ## Exercice 
