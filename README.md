@@ -1,21 +1,22 @@
 # Docker Formation
 ## Installation 
 
-### Docker Desktop (Windows)
-Docker Desktop requires Windows 10 Pro or Enterprise version
+### Docker Desktop (Windows Pro / Windows Enterprise)
+Docker Desktop require Windows 10 Pro ou Enterprise version
 
 [Download here : hub.docker.com](https://hub.docker.com/?overlay=onboarding)
 
 **Docker Id**
 
-**Login** chwapiexo1 **Password** chwapiexo1
+Besoin de créer un Docker id pour telecharger Docker Deskop
 
+**Login** chwapiexo1 **Password** chwapiexo1
 
 Dans le cmd de windows tester si l'installation a fonctionnée
 ```
 docker --version
 ```
-### Docker Toolbox 
+### Docker Toolbox (Windows)
 
 [Download here : github.com/docker/toolbox/ ](https://github.com/docker/toolbox/releases)
 
@@ -27,7 +28,6 @@ Installation de VM VirtualBox car Hyper-v Manager n'est pas sur windows non pro/
 ### Cloud 
  * [Azure](https://hub.docker.com/editions/community/docker-ce-azure)
  * [Aws](https://hub.docker.com/editions/community/docker-ce-aws)
-
 
 ## HelloWorld container
 
