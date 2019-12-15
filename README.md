@@ -347,7 +347,12 @@ size : 1.84kB
 
 
 ### Docker-compose 
-voir exo 
+
+docker-compose.yml
+
+Permet de lancer les différents containeurs avec leurs parametres
+
+Voir exo 
 
 ### Push image 
 https://training.play-with-docker.com/beginner-linux/ end exo
@@ -378,6 +383,21 @@ docker image pull chwapiexo1/figlet:2.0
 
 ## Demo 
 ### Azure 
+
+Mon compte azure :[https://portal.azure.com/#home]( https://portal.azure.com/#home)
+Pseudo : hofbauer92@gmail.com
+
+* Resource groups 
+* Create resource
+* [Quickstart](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal) 
+
+Image docker mcr.microsoft.com/azuredocs/aci-helloworld
+
+Network => dns name DemoContainer
+
+Link App dnsdemochwapi.westus.azurecontainer.io
+
+Check logs /Containers/logs
 
 ### Compose Swarm  
 permet d'ochestrer les container entre eux 
