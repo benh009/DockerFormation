@@ -381,7 +381,12 @@ docker image pull chwapiexo1/figlet:2.0
 
 ## Demo 
 ### Azure 
-
+ ```
+docker run -p 8000:80 mcr.microsoft.com/azuredocs/aci-helloworld
+```
+ ```
+ http://localhost:8000/
+ ```
 Mon compte azure :[https://portal.azure.com/#home]( https://portal.azure.com/#home)
 Pseudo : hofbauer92@gmail.com
 
@@ -397,12 +402,48 @@ Link App dnsdemochwapi.westus.azurecontainer.io
 
 Check logs /Containers/logs
 
-### Compose Swarm  
-permet d'ochestrer les container entre eux 
-compose sur une machine 
-swarn plus puissant 
+### Swarm  
+[Lab](https://labs.play-with-docker.com/)  dans Edge
+```
+docker swarm init --advertise-addr $(hostname -i)
+```
+```
+ docker swarm join --token SWMTKN-1-5wn8f8r8klcvqrl6ruordimf06hl3h48loo9szo11mpa34dsjn-e33ynvtrbsan70c8tiat7fs6q 192.168.0.48:2377
+```
+Liste les nodes
+```
+docker node ls
+```
+Installe les services
+```
+docker service create -p 80:80 --name web nginx:latest
+```
+Curl ou click sur le lien du port dans lab
+```
+curl http://localhost:80
+```
+lance 15 services
+```
+docker service scale web=15
+```
 
-https://training.play-with-docker.com/swarm-mode-intro/#
+```
+docker service ps web
+```
+
+Stop node2
+```
+docker node update --availability drain node2
+```
 
 
-visualisateur end of this https://training.play-with-docker.com/swarm-stack-intro/
+```
+docker service ps web
+```
+```
+docker node ls
+```
+
+```
+docker node update --availability active node2
+```
