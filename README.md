@@ -2,8 +2,8 @@
 ## Introduction 
 * Les conteneurs ne sont pas nouveaux. Ils sont Disponnibles depuis longtemps sur Linux/Solaris/windows
 * Docker est un ensemble d'outils, d'api qui rendre les conteneurs plus facilement gérable
-* Arrivé au bon moment quand on l'industrie cherchait un moyen de mieux gérer le cloud
-* Docker et plus qu'une trousse à outils .Ecosysteme foisonnant
+* Arrivé au bon moment quand l'industrie cherchait un moyen de mieux gérer le cloud
+* Docker et plus qu'une trousse à outils .C'est un Ecosysteme foisonnant
 * Google gère plus de deux millards de conteneurs. Exemple : gmail, maps ,search 
 * Illusion d'être la seul à avoir accès au système 
 * Vm illusion d'être le seul à exploiter le hardware 
