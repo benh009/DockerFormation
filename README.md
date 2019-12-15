@@ -62,6 +62,13 @@ Liste tout les container sur le pc
 docker container ls --all
 ```
 
+Supprime un container 
+```
+docker rm 8730
+```
+Le CONTAINER ID est spécifique à chaque instance de container et est donc différent sur votre machine. 
+
+
 
 Stop docker
 ```
