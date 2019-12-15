@@ -306,10 +306,10 @@ docker image build -t figlet:v0.1 .
  docker container run -ti figlet:v0.2 bash
    ```
 
-lancer python dans le bash
-  ```
-  python
-    ```
+Lancer python dans le bash
+```
+python
+```
   
  ### Docker 
  
