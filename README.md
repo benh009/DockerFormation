@@ -2,13 +2,13 @@
 ## Installation 
 
 ### Docker Desktop (Windows Pro / Windows Enterprise)
-Docker Desktop require Windows 10 Pro ou Enterprise version
+*Docker Desktop require Windows 10 Pro ou Enterprise version*
 
 [Download here : hub.docker.com](https://hub.docker.com/?overlay=onboarding)
 
 **Docker Id**
 
-Besoin de créer un Docker id pour telecharger Docker Deskop
+*Besoin de créer un Docker id pour telecharger Docker Deskop*
 
 **Login** chwapiexo1 **Password** chwapiexo1
 
