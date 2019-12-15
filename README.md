@@ -390,13 +390,8 @@ docker image push $DOCKERID/linux_tweet_app:1.0
 git pull ???
 
 
-### folder partager avec host
+## Exercice 
 
-### exercice 
+*[lab](https://labs.play-with-docker.com/) permet de ne pas devoir installer
 
-Lab permet de ne pas devoir installer
-
-[lab](https://labs.play-with-docker.com/)
-
-Exercice 
-[exo](https://training.play-with-docker.com/microservice-orchestration/)
+*[Exercice ](https://training.play-with-docker.com/microservice-orchestration/)
