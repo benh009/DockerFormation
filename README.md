@@ -347,26 +347,9 @@ size : 1.84kB
 
 
 ### Docker-compose 
+voir exo 
 
-db + .net core
-
-### push image 
-
-
-
-
-
-### Compose Swarm  
-permet d'ochestrer les container entre eux 
-compose sur une machine 
-swarn plus puissant 
-
-https://training.play-with-docker.com/swarm-mode-intro/#
-
-
-visualisateur end of this https://training.play-with-docker.com/swarm-stack-intro/
-
-### push image 
+### Push image 
 https://training.play-with-docker.com/beginner-linux/ end exo
 
  ```
@@ -379,21 +362,29 @@ https://training.play-with-docker.com/beginner-linux/ end exo
 docker image build --tag chwapiexo1/figlet:2.0 .
 docker image push chwapiexo1/figlet:2.0
  ```
- 
-
 [Pricing pour repository privé](https://hub.docker.com/pricing)
 
-
-
+Remove image et reload
  ```
-
+docker rmi 582 -f
 docker image pull chwapiexo1/figlet:2.0
  ```
  
-
-
 ## Exercice 
 
 * [Lab](https://labs.play-with-docker.com/) permet de ne pas devoir installer
 
 * [Exercice ](https://training.play-with-docker.com/microservice-orchestration/)
+
+## Demo 
+### Azure 
+
+### Compose Swarm  
+permet d'ochestrer les container entre eux 
+compose sur une machine 
+swarn plus puissant 
+
+https://training.play-with-docker.com/swarm-mode-intro/#
+
+
+visualisateur end of this https://training.play-with-docker.com/swarm-stack-intro/
