@@ -69,7 +69,7 @@ docker rm 8730
 Le CONTAINER ID est spécifique à chaque instance de container et est donc différent sur votre machine. 
 
 
-## HelloWorld container (Console App)
+## HelloWorld container (Console App .net Core + asp.net Core Web App)
 
 [.net Core Samples](https://hub.docker.com/_/microsoft-dotnet-core-samples)
 
@@ -77,26 +77,43 @@ Pull samples
 ```
 docker pull mcr.microsoft.com/dotnet/core/samples
 ```
-Run samples 
+Run samples App .net Core
 ```
 docker run --rm mcr.microsoft.com/dotnet/core/samples
 ```
+*--rm supprime le container quand il est terminé
 
-Stop docker
+Run web App .net Core
 ```
-docker stop my_container
+docker run -it --rm -p 8000:80 --name aspnetcore_sample mcr.microsoft.com/dotnet/core/samples:aspnetapp
 ```
+*--name donne un nom au container
+* 8000:80 Port mapping le 80000 de l'host docker =  port 80 du container
+
+
+Liens de l'app 
+```
+http://localhost:8000/ 
+```
+
+Stop docker par le nom défini dans --name
+```
+docker stop aspnetcore_sample
+```
+
 Stop et supprime un container
 ```
-docker rm --force linux_tweet_app
+docker rm --force aspnetcore_sample
 ```
+
+### Switch to Docker linux
+
 Os container : windows
 ```
 docker inspect --format='{{.Os}}' hello-world
 ```
 
 
-### Switch to Docker linux
 Docker Desktop->Switch to linux docker
 
 ```
