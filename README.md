@@ -392,6 +392,6 @@ git pull ???
 
 ## Exercice 
 
-*[lab](https://labs.play-with-docker.com/) permet de ne pas devoir installer
+* [Lab](https://labs.play-with-docker.com/) permet de ne pas devoir installer
 
-*[Exercice ](https://training.play-with-docker.com/microservice-orchestration/)
+* [Exercice ](https://training.play-with-docker.com/microservice-orchestration/)
