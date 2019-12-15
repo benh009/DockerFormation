@@ -29,7 +29,7 @@ Installation de VM VirtualBox car Hyper-v Manager n'est pas sur windows non Pro/
  * [Azure](https://hub.docker.com/editions/community/docker-ce-azure)
  * [Aws](https://hub.docker.com/editions/community/docker-ce-aws)
 
-## HelloWorld container
+## HelloWorld container (Console App)
 
 ```
 docker run hello-world
@@ -69,6 +69,12 @@ docker rm 8730
 Le CONTAINER ID est spécifique à chaque instance de container et est donc différent sur votre machine. 
 
 
+## HelloWorld container (Console App)
+[.net Core Samples](https://hub.docker.com/_/microsoft-dotnet-core-samples)
+
+```
+docker pull mcr.microsoft.com/dotnet/core/samples
+```
 
 Stop docker
 ```
