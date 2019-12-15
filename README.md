@@ -264,7 +264,53 @@ docker container run ourfiglet figlet hello
 
 
  ### Docker file
+ 
+Dockerfile 
+ ```
+FROM ubuntu
+RUN apt-get update && apt-get install -y figlet
+```
+ ```
+docker image build -t figlet:v0.1 .
+ ```
+  ```
+ docker images
+  ```
+  ```
+  docker container run figlet:v0.1 figlet hello
+  ```
+  Install python and call figlet hello
+   ```
+  FROM figlet:v0.1
+RUN apt-get update && apt-get install -y python
+CMD ["figlet","hello"]
+ ```
+```
+docker image build -t figlet:v0.1 .
+```
+ ```
+ docker images
+ ```
+  
+  V0.1 continue à fonctionner 
+   ```
+    docker container run figlet:v0.1 figlet hello
+ ```
+  Print hello et contient python 
+  ```
+  docker container run figlet:v0.2 figlet hello
+ ```
+ 
+ 
+   ```
+ docker container run -ti figlet:v0.2 bash
+   ```
 
+lancer python dans le bash
+  ```
+  python
+    ```
+  
  ### Docker 
  
 ```
