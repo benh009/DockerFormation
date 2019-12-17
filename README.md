@@ -370,19 +370,23 @@ Permet de lancer les différents conteneurs avec leurs paramètres
 Voir exercices
 
 ## Push image 
+**Docker Id**
+* **Login** chwapiexo1 
+* **Password** chwapiexo1
  ```
   docker login
   ```
-  * Use docker Id 
+  * Nécessite un Docker Id 
   * Docker Desktop->repo 
   
+ Build conteneur et Push sur [Docker hub](https://hub.docker.com/) 
  ```
 docker image build --tag chwapiexo1/figlet:2.0 .
 docker image push chwapiexo1/figlet:2.0
  ```
-[Pricing pour repository privé](https://hub.docker.com/pricing)
+[Prix pour un repository privé](https://hub.docker.com/pricing)
 
-Remove image et reload
+Supprime l'image et pull de Docker Hub
  ```
 docker rmi 582 -f
 docker image pull chwapiexo1/figlet:2.0
@@ -390,7 +394,7 @@ docker image pull chwapiexo1/figlet:2.0
  
 ## Exercices
 
-* [Lab](https://labs.play-with-docker.com/) permet de ne pas devoir installer
+* [Lab](https://labs.play-with-docker.com/) permet de ne pas devoir installer Docker
 
 * [Exercice ](https://training.play-with-docker.com/microservice-orchestration/)
 
