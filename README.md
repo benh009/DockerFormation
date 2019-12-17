@@ -13,7 +13,7 @@
 * [Docker-compose ](https://github.com/benh009/DockerFormation/blob/master/README.md#docker-compose)
 * [Push image ](https://github.com/benh009/DockerFormation/blob/master/README.md#push-image)
 * [Exercices](https://github.com/benh009/DockerFormation/blob/master/README.md#exercices)
-* [Demos](https://github.com/benh009/DockerFormation/blob/master/README.md#demos)
+* [Démonstrations](https://github.com/benh009/DockerFormation/blob/master/README.md#demonstrations  )
 ## Introduction 
 * Les conteneurs ne sont pas nouveaux. Ils sont disponibles depuis longtemps sur Linux/Solaris/Windows.
 * Docker est un ensemble d'outils, d'API qui rendent les conteneurs plus facilement gérables.
@@ -398,7 +398,7 @@ docker image pull chwapiexo1/figlet:2.0
 
 * [Exercice ](https://training.play-with-docker.com/microservice-orchestration/)
 
-## Demos 
+## Démonstrations   
 ### Azure 
  ```
 docker run -p 8000:80 mcr.microsoft.com/azuredocs/aci-helloworld
