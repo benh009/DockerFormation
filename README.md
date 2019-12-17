@@ -3,17 +3,17 @@
 ## Agenda
 * [Introduction](https://github.com/benh009/DockerFormation/blob/master/README.md#introduction)
 * [Installation](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
-* HelloWorld containeur (Console App)
-* HelloWorld container (Console App .net Core + asp.net Core Web App) 
-* Docker configuration
-* Lancer des commandes dans le containeur
-* Isolation des containeur  
-* Kitematic (UI pour docker)
-* Mon containeur custom
-* Docker-compose 
-* Push image 
-* Exercices
-* Demos
+* [HelloWorld conteneur(Console App)](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [HelloWorld conteneur (Console App .net Core + asp.net Core Web App) ](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [Docker configurations](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [Lancer des commandes dans le conteneur](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [Isolation des conteneurs](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [Kitematic (UI pour Docker)](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [Mon conteneur custom](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [Docker-compose ](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [Push image ](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [Exercices](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [Demos](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
 ## Introduction 
 * Les conteneurs ne sont pas nouveaux. Ils sont disponibles depuis longtemps sur Linux/Solaris/Windows.
 * Docker est un ensemble d'outils, d'API qui rendent les conteneurs plus facilement gérables.
@@ -60,7 +60,7 @@ Installation de VM VirtualBox car Hyper-v Manager n'est pas sur windows non Pro/
  * [Azure](https://hub.docker.com/editions/community/docker-ce-azure)
  * [Aws](https://hub.docker.com/editions/community/docker-ce-aws)
 
-## HelloWorld containeur (Console App)
+## HelloWorld conteneur (Console App)
 
 ```
 docker run hello-world
@@ -100,7 +100,7 @@ docker rm 8730
 Le CONTAINER ID est spécifique à chaque instance de container et est donc différent sur votre machine. 
 
 
-## HelloWorld container (Console App .net Core + asp.net Core Web App)
+## HelloWorld conteneur (Console App .net Core + asp.net Core Web App)
 
 [.net Core Samples](https://hub.docker.com/_/microsoft-dotnet-core-samples)
 
@@ -137,7 +137,7 @@ Stop et supprime un container
 docker rm --force aspnetcore_sample
 ```
 
-## Docker configuration
+## Docker configurations
 ### Switch vers Docker Linux ou Windows
 
 ```
@@ -226,7 +226,7 @@ Download : [Kitematic](https://kitematic.com/)
 
 Guide : [lien](https://docs.docker.com/kitematic/userguide/)
  
- ## Mon containeur custom
+ ## Mon conteneur custom
  
  ### Commit après changement  
 https://training.play-with-docker.com/ops-s1-images/
