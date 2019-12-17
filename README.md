@@ -43,7 +43,7 @@
 * **Login** chwapiexo1 
 * **Password** chwapiexo1
 
-Avec la commande **cmd** de windows tester si l'installation a fonctionnée
+Avec la commande **cmd** de windows, on peut tester si l'installation a fonctionné.
 ```
 docker --version
 ```
