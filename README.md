@@ -3,7 +3,7 @@
 ## Agenda
 * [Introduction](https://github.com/benh009/DockerFormation/blob/master/README.md#introduction)
 * [Installation](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
-* [HelloWorld conteneur(Console App)](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [HelloWorld conteneur (Application Console)](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
 * [HelloWorld conteneur (Console App .net Core + asp.net Core Web App) ](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
 * [Docker configurations](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
 * [Lancer des commandes dans le conteneur](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
@@ -32,16 +32,16 @@
 
 ## Installation 
 
-### Docker Desktop (Windows Pro / Windows Enterprise)
-*Docker Desktop require Windows 10 Pro ou Enterprise version*
+### Docker Desktop (Windows Pro/Windows Enterprise)
+*Docker Desktop exige Windows 10 Pro ou Enterprise version*
 
 [Download here : hub.docker.com](https://hub.docker.com/?overlay=onboarding)
 
-**Docker Id**
-
 *Besoin de créer un Docker id pour telecharger Docker Deskop*
 
-**Login** chwapiexo1 **Password** chwapiexo1
+**Docker Id**
+* **Login** chwapiexo1 
+* **Password** chwapiexo1
 
 Avec la commande **cmd** de windows tester si l'installation a fonctionnée
 ```
@@ -60,7 +60,7 @@ Installation du gestionnaire de VM VirtualBox car Hyper-v Manager n'est pas sur 
  * [Azure](https://hub.docker.com/editions/community/docker-ce-azure)
  * [Aws](https://hub.docker.com/editions/community/docker-ce-aws)
 
-## HelloWorld conteneur (Console App)
+## HelloWorld conteneur (Application Console)
 
 ```
 docker run hello-world
