@@ -410,17 +410,14 @@ Lien
  ```
 [Azure Portal]( https://portal.azure.com/#home)
 
-Pseudo : hofbauer92@gmail.com
+Documentation : [Quickstart](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal) 
 
+Pseudo : hofbauer92@gmail.com
+Configuration
 * Resource groups 
 * Create resource
-* [Quickstart](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal) 
-
-Image docker : mcr.microsoft.com/azuredocs/aci-helloworld
-
-Network => Dns name DemoContainer
-
-Liens de l'application : dnsdemochwapi.westus.azurecontainer.io
+* Image docker : mcr.microsoft.com/azuredocs/aci-helloworld
+* Network : Dns name => DemoContainer (liens application = dnsdemochwapi.westus.azurecontainer.io)
 
 Voir les logging de connexion :  /Containers/logs
 
