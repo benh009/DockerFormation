@@ -112,27 +112,28 @@ Run samples App .net Core
 ```
 docker run --rm mcr.microsoft.com/dotnet/core/samples
 ```
-* --rm supprime le container quand il est terminé
+* --rm supprime le conteneur quand il est terminé
 
 Run web App .net Core
 ```
 docker run --detach --rm -p 8000:80 --name aspnetcore_sample mcr.microsoft.com/dotnet/core/samples:aspnetapp
 ```
-* --name donne un nom au container
-* 8000:80 Port mapping le 80000 de l'host docker =  port 80 du container
+* --name donne un nom au conteneur
+* 8000:80 Port mapping => le port 80000 de l'host docker =  port 80 du conteneur
 * -itd interactive pseudo terminal
-* --detach detache le terminal 
-Liens de l'app 
+* --detach détache le terminal
+
+Lien de l'application web
 ```
 http://localhost:8000/ 
 ```
 
-Stop docker par le nom défini dans --name
+Stop le conteneur docker par le nom défini dans --name
 ```
 docker stop aspnetcore_sample
 ```
 
-Stop et supprime un container
+Stop et supprime un conteneur
 ```
 docker rm --force aspnetcore_sample
 ```
