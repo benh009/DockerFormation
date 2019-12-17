@@ -333,11 +333,11 @@ Image Id de figlet:v0.2
 docker image history 58
 ```
 
-Utilise la cache quand on build des nouvelles images  
+Permet d'utiliser la cache quand on build des nouvelles images  
 
   
   
- ### Docker file utilisé pour les containeurs officiel 
+ ### Docker file utilisé pour les containeurs officiels 
  
 ```
 docker run hello-world
