@@ -3,7 +3,7 @@
 ## Agenda
 * [Introduction](https://github.com/benh009/DockerFormation/blob/master/README.md#introduction)
 * [Installation](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
-* [HelloWorld conteneur (Application Console)](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [HelloWorld conteneur (Application Console)](https://github.com/benh009/DockerFormation/blob/master/README.md#helloworld-conteneur-application-console)
 * [HelloWorld conteneur (Console App .net Core + asp.net Core Web App) ](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
 * [Docker configurations](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
 * [Lancer des commandes dans le conteneur](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
@@ -100,7 +100,7 @@ docker rm 8730
 Le CONTENEUR ID est spécifique à chaque instance de conteneur et est donc différent sur votre machine. 
 
 
-## HelloWorld conteneur (Console App .net Core + asp.net Core Web App)
+## HelloWorld conteneur (Application Console .net Core + Application web asp.net Core)
 
 [.net Core Samples](https://hub.docker.com/_/microsoft-dotnet-core-samples)
 
