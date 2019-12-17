@@ -7,7 +7,7 @@
 * [HelloWorld conteneur (Console App .net Core + asp.net Core Web App) ](https://github.com/benh009/DockerFormation/blob/master/README.md#helloworld-conteneur-application-console-net-core--application-web-aspnet-core)
 * [Docker configurations](https://github.com/benh009/DockerFormation/blob/master/README.md#docker-configurations)
 * [Lancer des commandes dans le conteneur](https://github.com/benh009/DockerFormation/blob/master/README.md#lancer-des-commandes-dans-le-conteneur)
-* [Isolation des conteneurs](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [Isolation des conteneurs](https://github.com/benh009/DockerFormation/blob/master/README.md#isolation-des-containeur)
 * [Kitematic (UI pour Docker)](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
 * [Mon conteneur custom](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
 * [Docker-compose ](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
@@ -190,37 +190,37 @@ ls
 ```
 
 ## Isolation des containeur  
-Il est important de faire la difference entre une image et un container. 
+Il est important de faire la différence entre une image et un container. 
 
-L'image permet de runner un container.
+L'image permet de construire et lancer un conteneur.
 
-Deux run de container sont bien isolés et n'ont pas d'interaction
+Deux lancements de conteneur sont bien isolés et n'ont pas d'interaction.
 
 ```
 docker container run -it alpine /bin/ash
 ```
 
-Ecrire dans le container 1
+Ecrire dans le conteneur 1
 ```
  echo "hello world" > hello.txt
  ls
 ```
-lister fichier dans le container 2
+Lister les fichiers dans le conteneur 2
 ```
 docker container run alpine ls
 ```
-le containeur 2 ne contient pas hello.txt
+Le conteneur 2 ne contient pas hello.txt
 
-## Kitematic (UI for docker)
+## Kitematic (UI pour Docker)
 
 
 Download : [Kitematic](https://kitematic.com/)
 
-* All running containers 
-* Create new containers
-* Setting containers
-* Documentation links
-* Start/stop containers
+* Liste des conteneurs qui tournent 
+* Lance un nouveau conteneur
+* Configuration des conteneurs
+* Liens de documentations des conteneurs 
+* Start/stop des conteneurs
 
 Guide : [lien](https://docs.docker.com/kitematic/userguide/)
  
