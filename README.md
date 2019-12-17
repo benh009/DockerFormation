@@ -9,11 +9,11 @@
 * [Lancer des commandes dans le conteneur](https://github.com/benh009/DockerFormation/blob/master/README.md#lancer-des-commandes-dans-le-conteneur)
 * [Isolation des conteneurs](https://github.com/benh009/DockerFormation/blob/master/README.md#isolation-des-conteneurs)
 * [Kitematic (UI pour Docker)](https://github.com/benh009/DockerFormation/blob/master/README.md#kitematic-ui-pour-docker)
-* [Mon conteneur custom](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
-* [Docker-compose ](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
-* [Push image ](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
-* [Exercices](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
-* [Demos](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [Mon conteneur custom](https://github.com/benh009/DockerFormation/blob/master/README.md#mon-conteneur-custom)
+* [Docker-compose ](https://github.com/benh009/DockerFormation/blob/master/README.md#docker-compose)
+* [Push image ](https://github.com/benh009/DockerFormation/blob/master/README.md#push-image)
+* [Exercices](https://github.com/benh009/DockerFormation/blob/master/README.md#exercices)
+* [Demos](https://github.com/benh009/DockerFormation/blob/master/README.md#demos)
 ## Introduction 
 * Les conteneurs ne sont pas nouveaux. Ils sont disponibles depuis longtemps sur Linux/Solaris/Windows.
 * Docker est un ensemble d'outils, d'API qui rendent les conteneurs plus facilement gérables.
@@ -361,13 +361,13 @@ docker images
 size : 1.84kB
 
 
-## Docker-compose 
+## Docker Compose 
 
 docker-compose.yml
 
-Permet de lancer les différents containeurs avec leurs parametres
+Permet de lancer les différents conteneurs avec leurs paramètres
 
-Voir exo 
+Voir exercices
 
 ## Push image 
  ```
@@ -394,7 +394,7 @@ docker image pull chwapiexo1/figlet:2.0
 
 * [Exercice ](https://training.play-with-docker.com/microservice-orchestration/)
 
-## Demo 
+## Demos 
 ### Azure 
  ```
 docker run -p 8000:80 mcr.microsoft.com/azuredocs/aci-helloworld
