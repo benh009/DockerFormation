@@ -51,7 +51,7 @@ docker --version
 
 [Download here : github.com/docker/toolbox/ ](https://github.com/docker/toolbox/releases)
 
-Installation de VM VirtualBox car Hyper-v Manager n'est pas sur windows non Pro/Entreprise
+Installation du gestionnaire de VM VirtualBox car Hyper-v Manager n'est pas sur windows non Pro/Entreprise
 
 ### Autre OS 
 * [Ubuntu](https://hub.docker.com/editions/community/docker-ce-server-ubuntu)
@@ -83,7 +83,7 @@ Liste les images sur mon pc
 ```
 docker image ls
 ```
-Les conteneurs qui **tournent** sur mon pc
+Liste les conteneurs qui **tournent** sur mon pc
 ```
 docker container ls
 ```
