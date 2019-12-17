@@ -88,7 +88,7 @@ Liste les conteneurs qui **tournent** sur mon pc
 docker container ls
 ```
 
-Liste tout les conteneurs sur mon pc
+Liste tous les conteneurs sur mon pc
 ```
 docker container ls --all
 ```
