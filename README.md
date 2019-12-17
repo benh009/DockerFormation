@@ -251,11 +251,11 @@ figlet "hello docker"
 
 Exit ubuntu
 
-Id conteneur 
+Recupère l'id du conteneur 
 ```
 docker container ls -a
 ```
-
+Commit les changements
 ```
 docker container commit b6
 ```
@@ -263,12 +263,12 @@ Nouvelle image crée
 ```
 docker image ls
 ```
-Ajout d'un tag 
+Ajoute un tag 
 ```
 docker image tag 268 ourfiglet
 ```
 
-run commande figlet 
+Run commande figlet 
 ```
 docker container run ourfiglet figlet hello
 ```
@@ -311,7 +311,7 @@ Liste les images
    ```
     docker container run figlet:v0.1 figlet hello
  ```
-  Print hello et contient python 
+  Print hello et contient Python 
   ```
   docker container run figlet:v0.2 figlet hello
  ```
@@ -333,7 +333,7 @@ Image Id de figlet:v0.2
 docker image history 58
 ```
 
-Utilse la cache quand on build des nouvelles images  
+Utilise la cache quand on build des nouvelles images  
 
   
   
