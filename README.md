@@ -166,7 +166,7 @@ docker inspect --format='{{.Os}}' hello-world
 ```
 Comment un conteneur tourne sur une machine host Windows? => VM Linux sur Windows
 
-### Docker Desktop configuration 
+### Docker Desktop configurations 
 * Shared drive 
 * Advanced seulement disponible pour la vm linux
 
