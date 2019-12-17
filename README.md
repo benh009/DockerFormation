@@ -1,4 +1,19 @@
 # Docker Formation
+
+## Agenda
+* Introduction
+* Installation
+* HelloWorld containeur (Console App)
+* HelloWorld container (Console App .net Core + asp.net Core Web App) 
+* Docker configuration
+* Lancer des commandes dans le containeur
+* Isolation des containeur  
+* Kitematic (UI pour docker)
+* Mon containeur custom
+* Docker-compose 
+* Push image 
+* Exercices
+* Demo
 ## Introduction 
 * Les conteneurs ne sont pas nouveaux. Ils sont disponibles depuis longtemps sur Linux/Solaris/Windows.
 * Docker est un ensemble d'outils, d'API qui rendent les conteneurs plus facilement gérables.
@@ -45,7 +60,7 @@ Installation de VM VirtualBox car Hyper-v Manager n'est pas sur windows non Pro/
  * [Azure](https://hub.docker.com/editions/community/docker-ce-azure)
  * [Aws](https://hub.docker.com/editions/community/docker-ce-aws)
 
-## HelloWorld container (Console App)
+## HelloWorld containeur (Console App)
 
 ```
 docker run hello-world
@@ -122,7 +137,7 @@ Stop et supprime un container
 docker rm --force aspnetcore_sample
 ```
 
-## Docker settings
+## Docker configuration
 ### Switch vers Docker Linux ou Windows
 
 ```
@@ -158,7 +173,7 @@ Comment un container tourne sur host windows => VM linux sur windows
 
 
 
-## Run command dans le containeur
+## Lancer des commandes dans le containeur
 Alpine : version légère de linux
 ```
 docker container run alpine ls -l
@@ -176,7 +191,7 @@ uname -a (info marchine)
 ls
 ```
 
-## Isolation container  
+## Isolation des containeur  
 Il est important de faire la difference entre une image et un container. 
 
 L'image permet de runner un container.
@@ -346,7 +361,7 @@ docker images
 size : 1.84kB
 
 
-### Docker-compose 
+## Docker-compose 
 
 docker-compose.yml
 
@@ -354,7 +369,7 @@ Permet de lancer les différents containeurs avec leurs parametres
 
 Voir exo 
 
-### Push image 
+## Push image 
  ```
   docker login
   ```
@@ -373,7 +388,7 @@ docker rmi 582 -f
 docker image pull chwapiexo1/figlet:2.0
  ```
  
-## Exercice 
+## Exercices
 
 * [Lab](https://labs.play-with-docker.com/) permet de ne pas devoir installer
 
