@@ -6,7 +6,7 @@
 * [HelloWorld conteneur (Application Console)](https://github.com/benh009/DockerFormation/blob/master/README.md#helloworld-conteneur-application-console)
 * [HelloWorld conteneur (Console App .net Core + asp.net Core Web App) ](https://github.com/benh009/DockerFormation/blob/master/README.md#helloworld-conteneur-application-console-net-core--application-web-aspnet-core)
 * [Docker configurations](https://github.com/benh009/DockerFormation/blob/master/README.md#docker-configurations)
-* [Lancer des commandes dans le conteneur](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [Lancer des commandes dans le conteneur](https://github.com/benh009/DockerFormation/blob/master/README.md#lancer-des-commandes-dans-le-containeur)
 * [Isolation des conteneurs](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
 * [Kitematic (UI pour Docker)](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
 * [Mon conteneur custom](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
@@ -139,47 +139,44 @@ docker rm --force aspnetcore_sample
 ```
 
 ## Docker configurations
-### Switch vers Docker Linux ou Windows
+### Changement vers Docker Linux ou Windows
 
 ```
 docker run hello-world
 ```
 
-Os container : windows
+Os conteneur : windows
 ```
 docker inspect --format='{{.Os}}' hello-world
 ```
-
 
 Docker Desktop->Switch vers Linux docker/ windows
 
 ```
 docker run hello-world
 ```
-* pull image **linux** de [Docker hub](https://hub.docker.com/search?q=hello-world&type=image) 
-* run image
+* Pull image **linux** de [Docker hub](https://hub.docker.com/search?q=hello-world&type=image) 
+* Run image
 
 
-Os container : linux.
+Os conteneur : linux.
 
 ```
 docker inspect --format='{{.Os}}' hello-world
 ```
-Comment un container tourne sur host windows => VM linux sur windows
+Comment un conteneur tourne sur une machine host Windows? => VM Linux sur Windows
 
-### Docker Desktop setting 
-* shared drive 
+### Docker Desktop configuration 
+* Shared drive 
 * Advanced seulement disponible pour la vm linux
 
 
-
-
-## Lancer des commandes dans le containeur
+## Lancer des commandes dans le conteneur
 Alpine : version légère de linux
 ```
 docker container run alpine ls -l
 ```
-Cmd bash dans le container linux
+Commande bash dans le conteneur linux
 ```
  docker container run -it alpine /bin/sh
 ```
