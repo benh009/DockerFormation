@@ -400,26 +400,29 @@ docker image pull chwapiexo1/figlet:2.0
 
 ## Démonstrations   
 ### Azure 
+Run le conteneur en local
  ```
 docker run -p 8000:80 mcr.microsoft.com/azuredocs/aci-helloworld
 ```
+Lien
  ```
  http://localhost:8000/
  ```
-Mon compte azure :[https://portal.azure.com/#home]( https://portal.azure.com/#home)
+[Azure Portal]( https://portal.azure.com/#home)
+
 Pseudo : hofbauer92@gmail.com
 
 * Resource groups 
 * Create resource
 * [Quickstart](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal) 
 
-Image docker mcr.microsoft.com/azuredocs/aci-helloworld
+Image docker : mcr.microsoft.com/azuredocs/aci-helloworld
 
-Network => dns name DemoContainer
+Network => Dns name DemoContainer
 
-Link App dnsdemochwapi.westus.azurecontainer.io
+Liens de l'application : dnsdemochwapi.westus.azurecontainer.io
 
-Check logs /Containers/logs
+Voir les logging de connexion :  /Containers/logs
 
 ### Swarm  
 [Lab](https://labs.play-with-docker.com/)  dans Edge
