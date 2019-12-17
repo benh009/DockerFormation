@@ -43,7 +43,7 @@
 
 **Login** chwapiexo1 **Password** chwapiexo1
 
-Dans le cmd de windows tester si l'installation a fonctionnée
+Avec la commande **cmd** de windows tester si l'installation a fonctionnée
 ```
 docker --version
 ```
@@ -65,7 +65,7 @@ Installation de VM VirtualBox car Hyper-v Manager n'est pas sur windows non Pro/
 ```
 docker run hello-world
 ```
-Egale à
+Est égale à
 ```
 docker pull hello-world
 docker run hello-world
@@ -83,21 +83,21 @@ Liste les images sur mon pc
 ```
 docker image ls
 ```
-Les container qui **tournent** sur le pc
+Les conteneurs qui **tournent** sur mon pc
 ```
 docker container ls
 ```
 
-Liste tout les container sur le pc
+Liste tout les conteneurs sur mon pc
 ```
 docker container ls --all
 ```
 
-Supprime un container 
+Supprime un conteneur
 ```
 docker rm 8730
 ```
-Le CONTAINER ID est spécifique à chaque instance de container et est donc différent sur votre machine. 
+Le CONTENEUR ID est spécifique à chaque instance de conteneur et est donc différent sur votre machine. 
 
 
 ## HelloWorld conteneur (Console App .net Core + asp.net Core Web App)
