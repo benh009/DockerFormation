@@ -7,8 +7,8 @@
 * [HelloWorld conteneur (Console App .net Core + asp.net Core Web App) ](https://github.com/benh009/DockerFormation/blob/master/README.md#helloworld-conteneur-application-console-net-core--application-web-aspnet-core)
 * [Docker configurations](https://github.com/benh009/DockerFormation/blob/master/README.md#docker-configurations)
 * [Lancer des commandes dans le conteneur](https://github.com/benh009/DockerFormation/blob/master/README.md#lancer-des-commandes-dans-le-conteneur)
-* [Isolation des conteneurs](https://github.com/benh009/DockerFormation/blob/master/README.md#isolation-des-containeur)
-* [Kitematic (UI pour Docker)](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
+* [Isolation des conteneurs](https://github.com/benh009/DockerFormation/blob/master/README.md#isolation-des-conteneurs)
+* [Kitematic (UI pour Docker)](https://github.com/benh009/DockerFormation/blob/master/README.md#kitematic-ui-pour-docker)
 * [Mon conteneur custom](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
 * [Docker-compose ](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
 * [Push image ](https://github.com/benh009/DockerFormation/blob/master/README.md#Installation)
@@ -189,7 +189,7 @@ uname -a (info marchine)
 ls
 ```
 
-## Isolation des containeur  
+## Isolation des conteneurs  
 Il est important de faire la différence entre une image et un container. 
 
 L'image permet de construire et lancer un conteneur.
@@ -226,12 +226,12 @@ Guide : [lien](https://docs.docker.com/kitematic/userguide/)
  
  ## Mon conteneur custom
  
- ### Commit après changement  
+ ### Faire un commit après les changements  
  Création d'un conteneur ubuntu et lancement d'un bash dans le conteneur
  ```
  docker container run -ti ubuntu bash
 ```
-exit ubuntu 
+Exit ubuntu 
 ```
 docker images
 ```
@@ -249,7 +249,7 @@ apt-get install -y figlet
 figlet "hello docker"
 ```
 
-exit ubuntu
+Exit ubuntu
 
 Id conteneur 
 ```
@@ -268,7 +268,7 @@ Ajout d'un tag
 docker image tag 268 ourfiglet
 ```
 
-run cmd figlet 
+run commande figlet 
 ```
 docker container run ourfiglet figlet hello
 ```
@@ -280,24 +280,29 @@ Dockerfile
 FROM ubuntu
 RUN apt-get update && apt-get install -y figlet
 ```
+Build l'image
  ```
 docker image build -t figlet:v0.1 .
  ```
+  Liste les images
   ```
  docker images
   ```
+  Run le conteneur
   ```
   docker container run figlet:v0.1 figlet hello
   ```
-  Install python and call figlet hello
+  Installation de Python et appel de figlet hello
    ```
   FROM figlet:v0.1
 RUN apt-get update && apt-get install -y python
 CMD ["figlet","hello"]
  ```
+ Build image
 ```
 docker image build -t figlet:v0.1 .
 ```
+Liste les images
  ```
  docker images
  ```
@@ -311,7 +316,7 @@ docker image build -t figlet:v0.1 .
   docker container run figlet:v0.2 figlet hello
  ```
  
- 
+ Run le conteneur
    ```
  docker container run -ti figlet:v0.2 bash
    ```
