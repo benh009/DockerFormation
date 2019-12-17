@@ -259,7 +259,7 @@ Commit les changements
 ```
 docker container commit b6
 ```
-Nouvelle image crée
+Nouvelle image créée
 ```
 docker image ls
 ```
