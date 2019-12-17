@@ -229,8 +229,7 @@ Guide : [lien](https://docs.docker.com/kitematic/userguide/)
  ## Mon conteneur custom
  
  ### Commit après changement  
-https://training.play-with-docker.com/ops-s1-images/
- 
+ Création d'un conteneur ubuntu et lancement d'un bash dans le conteneur
  ```
  docker container run -ti ubuntu bash
 ```
@@ -238,12 +237,12 @@ exit ubuntu
 ```
 docker images
 ```
-Size : 64MB
+Size : 64MB vs ISO 2GB
  ```
  docker container run -ti ubuntu bash
 ```
 
-Ajout d'une lib dans mon ubuntu 
+Ajout d'une librairie dans mon conteneur Ubuntu
 
 [Figlet](http://www.figlet.org/)
 ```
@@ -254,7 +253,7 @@ figlet "hello docker"
 
 exit ubuntu
 
-Id containeur 
+Id conteneur 
 ```
 docker container ls -a
 ```
@@ -262,11 +261,11 @@ docker container ls -a
 ```
 docker container commit b6
 ```
-Nouvelle image 
+Nouvelle image crée
 ```
 docker image ls
 ```
-Ajout de tag 
+Ajout d'un tag 
 ```
 docker image tag 268 ourfiglet
 ```
@@ -275,8 +274,6 @@ run cmd figlet
 ```
 docker container run ourfiglet figlet hello
 ```
-
-
 
  ### Docker file
  
