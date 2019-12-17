@@ -13,7 +13,7 @@
 * Docker-compose 
 * Push image 
 * Exercices
-* Demo
+* Demos
 ## Introduction 
 * Les conteneurs ne sont pas nouveaux. Ils sont disponibles depuis longtemps sur Linux/Solaris/Windows.
 * Docker est un ensemble d'outils, d'API qui rendent les conteneurs plus facilement gérables.
