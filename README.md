@@ -423,13 +423,22 @@ Voir les logging de connexion :  /Containers/logs
 
 ### Swarm  
 [Lab](https://labs.play-with-docker.com/)  dans Edge
+
+**Docker Id**
+* **Login** chwapiexo1 
+* **Password** chwapiexo1
+
+Créer deux instances de machine Host Docker
+
+Initialisation de la machine principale
 ```
 docker swarm init --advertise-addr $(hostname -i)
 ```
+Joindre la machine principale 
 ```
  docker swarm join --token SWMTKN-1-5wn8f8r8klcvqrl6ruordimf06hl3h48loo9szo11mpa34dsjn-e33ynvtrbsan70c8tiat7fs6q 192.168.0.48:2377
 ```
-Liste les nodes
+Liste les noeuds
 ```
 docker node ls
 ```
@@ -441,28 +450,30 @@ Curl ou click sur le lien du port dans lab
 ```
 curl http://localhost:80
 ```
-lance 15 services
+Lance 15 services
 ```
 docker service scale web=15
 ```
+Liste l'état des services 
 
 ```
 docker service ps web
 ```
 
-Stop node2
+Stop le noeud 2
 ```
 docker node update --availability drain node2
 ```
 
-
+Liste l'état des services 
 ```
 docker service ps web
 ```
+Liste les noeuds
 ```
 docker node ls
 ```
-
+Active le noeud 2
 ```
 docker node update --availability active node2
 ```
